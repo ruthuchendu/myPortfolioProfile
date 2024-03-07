@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    bottom: 0;
+}
+header {
+    background-color: brown;
+    border: 2px white;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+    flex-direction: row;
+    margin: 5px;
+    color: aliceblue;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
