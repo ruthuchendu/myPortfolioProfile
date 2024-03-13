@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="description">
+    <meta name="" content="author">
+    <link rel="stylesheet" href="">
+    <title>html forms</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">WORKS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <form action="">
+
+        <!-- Name
+Date of Birth
+Gender
+Address
+Telephone
+Email Address
+Course -->
+            <label for="surname">SURNAME: </label>
+            <input type="text" name="name" id="name" placeholder="Type in your surname"><br>
+
+            <label for="firstname">FIRST NAME: </label>
+            <input type="text" name="name" id="name" placeholder="Type in your firstname"><br>
+
+            <label for="date of birth">DATE OF BIRTH</label>
+            <input type="date" name="DOB" id="DOB" placeholder="date of birth">
+
+            <fieldset>
+                <legend>GENDER</legend>
+                <input type="radio" name="gender">
+                <label for="male">MALE</label>
+                <input type="radio" name="gender">
+                <label for="female">FEMALE</label>
+            </fieldset>
+
+            <label for="address">ADDRESS: </label>
+            <input type="text" name="address" placeholder="where do you live?"><br>
+
+            <label for="Telephone">TELEPHONE: </label>
+            <input type="number" name="telephone" placeholder="234..."><br>
+
+            <label for="Email">EMAIL: </label>
+            <input type="email" name="Email" placeholder="input email address">
+
+            <label for="course">COURSE: </label>
+            <select name="course" id="">
+                <option value="micro-biology">micro-biology</option>
+                <option value="Nursing">Nursing</option>
+                <option value="">Bio-Chemistry</option>
+                <option value="">Geology</option>
+                <option value="">Economics</option>
+                <option value="">Education</option>
+                <option value="">Accounting</option>
+                <option value="">Agriculture</option>
+                <option value="">Computer science</option>
+                <option value="">Arts</option>
+                <option value="">Medicine</option>
+                <option value="">Architecture</option>
+            </select> <br>
+            <button>CANCEL</button> <button>REGISTER</button>
+    </form>
+</body>
+</html>
