@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(7, 0, 3);
+    color: whitesmoke;
+    
+}
+
+header {
+    width: 100%;
+    /* display: flex; 
+    justify-content: space-evenly;
+    top: 0; */
+    top: 0;
+}
+
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+    float: inline-start;
+    /* text-align: left; */
+}
+
+.navbar {
+    /* display: flex; */
+    justify-content: right;
+    float: left;
+}
+
+nav ul {
+    display: flex;
+    margin: 30px;
+    /* float: right; */
+    /* text-align: right; */
+    /* right: 0; */
+}
+
+li{
+    padding: 5px;
+    margin-left: 20px;
+    list-style: none;
+    font-weight: bold;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+nav a:hover {
+    padding: 5px;
+    box-shadow: 3px 3px  1px  rgb(236, 61, 84); 
+}
+
+.logo img{
+    width: 25%;
+    text-align: left;
+    float: left;
+    left: 0;
+}
+
+.contact button {
+    background-color: rgb(236, 61, 84);
+    /* color: rgb(102, 29, 29); */
+    border: none;
+    width: 100px;
+    height: 50px;
+    /* text-align: right; */
+    float: right;
+    right: 0;
+    margin-right: -1000px;
+}
+
+.contact button a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bolder;
+}
+
+.hero {
+    top: 50;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    align-items: center;
+    float: inline-start;
+    margin-top: 50px;
+}
+
+.mypicture  img {
+    width: 50%;
+    /* background-blend-mode: luminosity; */
+}
+
+.mypicture {
+    padding: 10px;
+    /* float: left; */
+    /* margin-top: 100px; */
+    margin-left: 200px;
+    flex: 1;
+    /* justify-content: left; */
+}
+
+.info {
+    flex: 1;
+    padding: 10px;
+    float: inherit;
+    text-align: left;
+    margin-right: 200px;
+    width: 100px;
+}
+.info h6 {
+    font-weight: bolder;
+    margin-bottom: 5px;
+    color: rgb(236, 61, 84);
+}
+
+.info span {
+    color: rgb(236, 61, 84);
+}
+
+.info h1 {
+    margin-bottom: 15px;
+}
+
+.info p {
+    font-size: 16px;
+}
+
+.form button {
+    width: 8.5rem;
+    height: 50px;
+    margin-top: 2.5rem;
+    background-color: black;
+    color: rgb(236, 61, 84);
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px;
+    border: 2px solid rgb(236, 61, 84);
+    box-shadow: 3px 3px  1px  rgb(236, 61, 84);
+    /* bottom: 50; */
+    /* top: 50; */
+    /* position: absolute; */
+}
+
+.form:hover, .form button:hover {
+    padding: 0.5rem;
+    color: whitesmoke;
+}
+
+footer {
+    bottom: 0;
+    background-color: rgb(245, 161, 170);;
+    width: 100%;
+    position: absolute;
+}
+
+.footerContainer {
+    text-align: center;
+}
